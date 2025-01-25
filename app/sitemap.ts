@@ -8,11 +8,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const categoryContents = await getAllCategoryList();
 
     const newsUrls: MetadataRoute.Sitemap = newsContents.map((content) => ({
-        url: buildUrl('/news/${content.id}'),
+        url: buildUrl(`/news/${content.id}`),
         lastModified: content.revisedAt,
     }));
     const categoryUrls: MetadataRoute.Sitemap = categoryContents.map((content) => ({
-        url: buildUrl('/news/category/${content.id}'),
+        url: buildUrl(`/news/category/${content.id}`),
         lastModified: content.revisedAt,
     }));
 
