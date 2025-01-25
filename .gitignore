@@ -34,3 +34,5 @@ MICROCMS_SERVICE_DOMAIN=87sj4ixxps
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.env*.local
