@@ -16,14 +16,14 @@ export default async function Home() {
     <>
       <section className={styles.top}>
         <div>
-          <h1 className={styles.title}>Yashiki Kokomo</h1>
+          <h1 className={styles.title}>Yashiki  Kokomo</h1>
           <p className={styles.description}>
             私たちは市場をリードしているグローバルテックカンパニーです。
           </p>
         </div>
         <Image
           className={styles.bgimg}
-          src="/img-mv.jpg"
+          src="/aaa.jpeg"
           alt=""
           width={4000}
           height={1200}
