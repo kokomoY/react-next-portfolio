@@ -16,9 +16,9 @@ export default async function Home() {
     <>
       <section className={styles.top}>
         <div>
-          <h1 className={styles.title}>Yashiki  Kokomo</h1>
+          <h1 className={styles.title}>Yashiki　Kokomo</h1>
           <p className={styles.description}>
-            私たちは市場をリードしているグローバルテックカンパニーです。
+            Kyoto College of Design and Technology
           </p>
         </div>
         <Image
